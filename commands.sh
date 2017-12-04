@@ -30,6 +30,7 @@ cat file2.txt
 # Piping
 read -p "Enter filename you want to search for " filename
 
+# List directory contents based on keyword/parameter given
 ls -la ~/Documents | grep $filename
 
 # Executing with parameters
