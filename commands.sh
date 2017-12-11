@@ -27,10 +27,9 @@ cat file.txt > file2.txt
 echo "> file2.txt contents are "
 cat file2.txt
 
-# Piping
-read -p "Enter filename you want to search for " filename
+read -p "Enter filename you want to search for in Documents folder " filename
 
-# List directory contents based on keyword/parameter given
+# List directory contents and pipe based on keyword/parameter given by user
 ls -la ~/Documents | grep $filename
 
 # Executing with parameters
